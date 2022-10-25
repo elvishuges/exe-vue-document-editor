@@ -1,7 +1,7 @@
 <template>
   <div>
     <button @click="print()">P</button>
-    {{ pages }}
+
     <div class="a4-formater-container" id="a4-foramter-printable">
       <div
         v-for="(page, page_idx) in pages"
